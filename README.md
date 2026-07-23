@@ -144,17 +144,32 @@ Based on the findings:
 
 ---
 
-# 📁 Repository Structure
+## 📂 Repository Structure
 
-```
-apple-vs-samsung-stock-analysis/
-
-│
-├── Apple_vs_Samsung_Stock_Analysis.ipynb
-├── Samsung_Apple_Stock_Analysis.xlsx
-├── README.md
-├── requirements.txt
-└── images/
+```text
+├── data/
+│   ├── Apple Stock Price History.csv
+│   ├── Samsung Electronics Co Stock Price History.csv
+│   └── Samsung_Apple_Stock_Analysis.xlsx
+├── images/
+│   ├── Correlation_&_Correlation_Matrix.png
+│   ├── Monthly_Return_Analysis_for_Apple.png
+│   ├── Monthly_Return_Analysis_for_Samsung.png
+│   ├── Moving_Average_for_Apple.png
+│   ├── Moving_Average_for_Samsung.png
+│   ├── Normalized_Stock_Performance.png
+│   ├── Outlier_Analysis.png
+│   ├── Return_Distribution_Analysis_for_Apple.png
+│   ├── Return_Distribution_Analysis_for_Samsung.png
+│   ├── Risk_vs_Return_Analysis.png
+│   ├── Scatter_Plot_Analysis.png
+│   ├── Volatility_Analysis_for_Apple.png
+│   ├── Volatility_Analysis_for_Samsung.png
+│   ├── Volume_Analysis_for_Apple.png
+│   └── Volume_Analysis_for_Samsung.png
+├── notebook/
+│   └── Apple&Samsung_StockPrice_DataAnalysis.ipynb
+└── README.md
 ```
 
 ---
