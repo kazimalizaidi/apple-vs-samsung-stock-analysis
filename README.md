@@ -114,7 +114,7 @@ Apple's volatility spiked in 2022 before settling into a lower, calmer band. Sam
 
 ### 🔗 Correlation Matrix
 
-![Correlation Matrix](images/Correlation___Correlation_Matrix.png)
+![Correlation Matrix](images/Correlation_&_Correlation_Matrix.png)
 
 A correlation of just **0.25** between Apple and Samsung monthly returns indicates the two stocks move largely independently — supporting the case for diversification.
 
