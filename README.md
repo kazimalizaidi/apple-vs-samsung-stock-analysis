@@ -70,7 +70,7 @@ Apple maintained a consistently higher indexed value for most of the period, whi
 
 ---
 
-### 📊 Moving Averages — Trend Confirmation
+### 📊 Moving Averages - Trend Confirmation
 
 <table>
 <tr>
@@ -87,7 +87,7 @@ Apple's price tracks its 6- and 12-month moving averages in a smoother, steadier
 
 ![Risk vs Return](images/Risk_vs_Return_Analysis.png)
 
-Samsung sits in the higher-risk, higher-return quadrant (~9.5% monthly volatility, ~1.58% average return) versus Apple's lower-risk, lower-return profile (~7.1% volatility, ~1.35% return) — the clearest single chart summarizing the risk/return trade-off between the two stocks.
+Samsung sits in the higher-risk, higher-return quadrant (~9.5% monthly volatility, ~1.58% average return) versus Apple's lower-risk, lower-return profile (~7.1% volatility, ~1.35% return) - the clearest single chart summarizing the risk/return trade-off between the two stocks.
 
 ---
 
@@ -95,7 +95,7 @@ Samsung sits in the higher-risk, higher-return quadrant (~9.5% monthly volatilit
 
 ![Distribution of Monthly Returns](images/Outlier_Analysis.png)
 
-The side-by-side boxplot highlights Samsung's wider interquartile range and several extreme positive outliers (20–34% months), versus Apple's tighter, more contained spread — visual confirmation of Samsung's higher volatility.
+The side-by-side boxplot highlights Samsung's wider interquartile range and several extreme positive outliers (20–34% months), versus Apple's tighter, more contained spread - visual confirmation of Samsung's higher volatility.
 
 ---
 
@@ -116,7 +116,7 @@ Apple's volatility spiked in 2022 before settling into a lower, calmer band. Sam
 
 ![Correlation Matrix](images/Correlation_&_Correlation_Matrix.png)
 
-A correlation of just **0.25** between Apple and Samsung monthly returns indicates the two stocks move largely independently — supporting the case for diversification.
+A correlation of just **0.25** between Apple and Samsung monthly returns indicates the two stocks move largely independently - supporting the case for diversification.
 
 ---
 
