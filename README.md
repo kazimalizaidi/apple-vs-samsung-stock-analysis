@@ -62,22 +62,61 @@ The dataset was cleaned and validated before performing the analysis.
 
 ## 📸 Key Visualizations
 
+### 📈 Normalized Stock Performance (Base = 100)
 
-### 📈 Stock Performance
+![Normalized Stock Performance](images/Normalized_Stock_Performance.png)
 
-![Stock Comparison](images/stock_comparison.png)
+Apple maintained a consistently higher indexed value for most of the period, while Samsung stayed range-bound until a sharp late-2025 surge closed much of the performance gap.
 
 ---
 
-### 📊 Moving Average
+### 📊 Moving Averages - Trend Confirmation
 
-![Moving Average](images/moving_average.png)
+<table>
+<tr>
+<td><img src="images/Moving_Average_for_Apple.png" alt="Apple Moving Average" width="100%"/></td>
+<td><img src="images/Moving_Average_for_Samsung.png" alt="Samsung Moving Average" width="100%"/></td>
+</tr>
+</table>
+
+Apple's price tracks its 6- and 12-month moving averages in a smoother, steadier uptrend. Samsung shows a similar late-cycle breakout, but with a choppier run-up.
 
 ---
 
 ### 📉 Risk vs Return
 
-![Risk Return](images/risk_return.png)
+![Risk vs Return](images/Risk_vs_Return_Analysis.png)
+
+Samsung sits in the higher-risk, higher-return quadrant (~9.5% monthly volatility, ~1.58% average return) versus Apple's lower-risk, lower-return profile (~7.1% volatility, ~1.35% return) - the clearest single chart summarizing the risk/return trade-off between the two stocks.
+
+---
+
+### 💹 Monthly Return Distribution
+
+![Distribution of Monthly Returns](images/Outlier_Analysis.png)
+
+The side-by-side boxplot highlights Samsung's wider interquartile range and several extreme positive outliers (20–34% months), versus Apple's tighter, more contained spread - visual confirmation of Samsung's higher volatility.
+
+---
+
+### ⚡ Rolling Volatility
+
+<table>
+<tr>
+<td><img src="images/Volatility_Analysis_for_Apple.png" alt="Apple Rolling Volatility" width="100%"/></td>
+<td><img src="images/Volatility_Analysis_for_Samsung.png" alt="Samsung Rolling Volatility" width="100%"/></td>
+</tr>
+</table>
+
+Apple's volatility spiked in 2022 before settling into a lower, calmer band. Samsung's volatility climbs sharply into 2026, aligning with its late-period rally.
+
+---
+
+### 🔗 Correlation Matrix
+
+![Correlation Matrix](images/Correlation_&_Correlation_Matrix.png)
+
+A correlation of just **0.25** between Apple and Samsung monthly returns indicates the two stocks move largely independently - supporting the case for diversification.
 
 ---
 
@@ -105,17 +144,32 @@ Based on the findings:
 
 ---
 
-# 📁 Repository Structure
+## 📂 Repository Structure
 
-```
-apple-vs-samsung-stock-analysis/
-
-│
-├── Apple_vs_Samsung_Stock_Analysis.ipynb
-├── Samsung_Apple_Stock_Analysis.xlsx
-├── README.md
-├── requirements.txt
-└── images/
+```text
+├── data/
+│   ├── Apple Stock Price History.csv
+│   ├── Samsung Electronics Co Stock Price History.csv
+│   └── Samsung_Apple_Stock_Analysis.xlsx
+├── images/
+│   ├── Correlation_&_Correlation_Matrix.png
+│   ├── Monthly_Return_Analysis_for_Apple.png
+│   ├── Monthly_Return_Analysis_for_Samsung.png
+│   ├── Moving_Average_for_Apple.png
+│   ├── Moving_Average_for_Samsung.png
+│   ├── Normalized_Stock_Performance.png
+│   ├── Outlier_Analysis.png
+│   ├── Return_Distribution_Analysis_for_Apple.png
+│   ├── Return_Distribution_Analysis_for_Samsung.png
+│   ├── Risk_vs_Return_Analysis.png
+│   ├── Scatter_Plot_Analysis.png
+│   ├── Volatility_Analysis_for_Apple.png
+│   ├── Volatility_Analysis_for_Samsung.png
+│   ├── Volume_Analysis_for_Apple.png
+│   └── Volume_Analysis_for_Samsung.png
+├── notebook/
+│   └── Apple&Samsung_StockPrice_DataAnalysis.ipynb
+└── README.md
 ```
 
 ---
@@ -168,3 +222,33 @@ Potential enhancements include:
 **Star this repository if you found it interesting!** ⭐
 
 made with ❤️ by **kazim**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
