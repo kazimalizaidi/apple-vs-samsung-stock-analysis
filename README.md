@@ -125,7 +125,7 @@ A correlation of just **0.25** between Apple and Samsung monthly returns indicat
 
 # 📌 Key Findings
 
-- Apple and Samsung delivered nearly identical annualized growth (Apple CAGR: 14.48%, Samsung CAGR: 14.38%) — long-term growth alone doesn't meaningfully separate the two stocks.
+- Apple and Samsung delivered nearly identical annualized growth (Apple CAGR: 14.48%, Samsung CAGR: 14.38%) - long-term growth alone doesn't meaningfully separate the two stocks.
 - The real difference between the two is risk, not return. Samsung experienced greater price volatility and larger monthly swings than Apple.
 - Apple produced more consistent monthly returns and a smoother, steadier moving-average trend.
 - Samsung's Maximum Drawdown (-37.54%) was substantially deeper than Apple's (-26.83%), highlighting its greater downside risk.
