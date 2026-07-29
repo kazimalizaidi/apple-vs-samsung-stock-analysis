@@ -27,7 +27,7 @@ This project includes:
 - 📦 Trading Volume
 - 📉 Risk vs Return
 - 📐 Sharpe Ratio (Risk-Adjusted Return)
-- 📈 CAGR
+- 📈 Compound Annual Growth Rate (CAGR)
 - 📉 Maximum Drawdown
 - 📊 Statistical Testing
 
