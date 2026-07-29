@@ -26,6 +26,7 @@ This project includes:
 - ⚡ Volatility
 - 📦 Trading Volume
 - 📉 Risk vs Return
+- 📐 Sharpe Ratio (Risk-Adjusted Return)
 - 📈 CAGR
 - 📉 Maximum Drawdown
 - 📊 Statistical Testing
@@ -43,6 +44,8 @@ This project includes:
 | Variables | Price, Open, High, Low, Volume, Change % |
 
 The dataset was cleaned and validated before performing the analysis.
+
+**Note:** Apple's price is denominated in USD and Samsung's in KRW. Raw price levels (max/min/mean) are not directly comparable across the two companies - only percentage-based metrics (returns, CAGR, volatility, Sharpe Ratio, drawdown) should be compared directly.
 
 ---
 
@@ -122,14 +125,14 @@ A correlation of just **0.25** between Apple and Samsung monthly returns indicat
 
 # 📌 Key Findings
 
-- Apple demonstrated stronger long-term stock price growth.
-- Samsung experienced greater price volatility.
-- Apple produced more consistent monthly returns.
-- Samsung exhibited higher investment risk.
-- CAGR analysis indicated stronger annualized growth for Apple.
-- Maximum Drawdown analysis highlighted Samsung's larger downside risk.
-- Statistical analysis provided additional evidence for comparing investment performance.
-- Diversification between both companies may help reduce portfolio risk.
+- Apple and Samsung delivered nearly identical annualized growth (Apple CAGR: 14.48%, Samsung CAGR: 14.38%) — long-term growth alone doesn't meaningfully separate the two stocks.
+- The real difference between the two is risk, not return. Samsung experienced greater price volatility and larger monthly swings than Apple.
+- Apple produced more consistent monthly returns and a smoother, steadier moving-average trend.
+- Samsung's Maximum Drawdown (-37.54%) was substantially deeper than Apple's (-26.83%), highlighting its greater downside risk.
+- Apple's Sharpe Ratio (0.19) edged out Samsung's (0.16), meaning Apple delivered a similar return per unit of risk taken - slightly more efficiently.
+- A correlation of just 0.25 between Apple and Samsung monthly returns indicates the two stocks move largely independently, supporting a modest diversification benefit from holding both.
+- A t-test on average monthly returns produced a p-value of 0.90 - the difference in average returns between the two stocks is not statistically significant.
+- Diversification between both companies may help reduce portfolio-level risk even though their long-term growth rates are similar.
 
 ---
 
@@ -137,10 +140,12 @@ A correlation of just **0.25** between Apple and Samsung monthly returns indicat
 
 Based on the findings:
 
-- Apple appears to be the stronger long-term investment due to its consistent growth and lower volatility.
-- Samsung offers higher growth potential but with increased investment risk.
-- Investors should consider diversification to balance returns and risk.
-- Investment decisions should also account for macroeconomic conditions, technological developments, and company fundamentals.
+- Apple is the more risk-efficient choice: its growth (14.48% CAGR) is essentially tied with Samsung's (14.38%), but it comes with a much shallower maximum drawdown and a higher Sharpe Ratio.
+- Samsung does not show a return advantage over this period to justify its higher volatility - its added risk isn't currently being compensated by higher return.
+- Lower-risk-tolerance investors should prefer Apple, since it offers comparable growth with a smaller downside.
+- Investors holding or considering Samsung should size the position with its deeper drawdown risk in mind, rather than expecting a return premium to offset it.
+- Given the return correlation between the two stocks is only 0.25, combining both may still offer diversification benefits.
+- Investment decisions should also account for macroeconomic conditions, technological developments, company fundamentals, and the reminder that the observed average-return difference here (p = 0.90) is not statistically reliable.
 
 ---
 
