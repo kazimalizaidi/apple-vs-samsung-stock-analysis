@@ -184,7 +184,7 @@ Based on the findings:
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/yourusername/apple-vs-samsung-stock-analysis.git
+git clone https://github.com/kazimalizaidi/apple-vs-samsung-stock-analysis.git
 ```
 
 2. Install the required libraries.
